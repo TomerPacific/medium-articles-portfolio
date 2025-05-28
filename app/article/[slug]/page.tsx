@@ -5,6 +5,13 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { BookmarkIcon, HandIcon as HandClap, MessageSquareIcon, ShareIcon, TwitterIcon } from "lucide-react"
 import Link from "next/link"
+import { articles } from "../page"
+
+export async function generateStaticParams() {
+  return articles.map((article) => ({
+    slug: article.title,
+  }));
+}
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
   return (
