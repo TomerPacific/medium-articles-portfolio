@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import Link from "next/link"
 import { CalendarIcon } from "lucide-react"
 
-const articles = [
+export const articles = [
   {
     title: "Migrating to Kotlin 2 In Jetpack Compose",
     url: "https://medium.com/proandroiddev/migrating-to-kotlin-2-0-in-your-jetpack-compose-project-315426b88d66",
