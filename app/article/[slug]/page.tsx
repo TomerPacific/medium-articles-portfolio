@@ -6,9 +6,11 @@ import Link from "next/link"
 import { articles } from "../page"
 
 export async function generateStaticParams() {
-  return articles.map((article) => ({
-    slug: article.title,
-  }));
+  if (Array.isArray(articles)) {
+    return articles.map((article) => ({
+        slug: article.title,
+      }));
+  }
 }
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
