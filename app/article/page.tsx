@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { CalendarIcon } from "lucide-react"
- import { basePath } from '../../next.config.mjs'
+import basePath from "../../next.config.mjs"
 
 export const articles = [
   {
