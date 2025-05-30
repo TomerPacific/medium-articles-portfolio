@@ -1,8 +1,8 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { CalendarIcon } from "lucide-react"
+import Image from 'next/image';
 
 const articles = [
   {
@@ -520,10 +520,12 @@ export default function Home() {
           <div className="space-y-8">
             <section className="space-y-6">
               <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:gap-8 bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-                <Avatar className="h-24 w-24 border-2 border-emerald-500 shadow-md">
-                  <AvatarImage src="/images/profile.png" alt="Tomer Ben-Rachel" />
-                  <AvatarFallback className="bg-emerald-100 text-emerald-700">TB</AvatarFallback>
-                </Avatar>
+                <Image 
+                  width="75"
+                  height="75"
+                  alt="Profile Image"
+                  src="/images/profile.png"
+                  className="rounded-full object-cover"/>
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold text-slate-800">Tomer Ben-Rachel</h1>
                   <p className="text-slate-600">
