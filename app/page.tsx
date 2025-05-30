@@ -524,8 +524,9 @@ export default function Home() {
                   width="75"
                   height="75"
                   alt="Profile Image"
-                  src="/images/profile.png"
+                  src="/medium-articles-portfolio/images/profile.png"
                   className="rounded-full object-cover"/>
+
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold text-slate-800">Tomer Ben-Rachel</h1>
                   <p className="text-slate-600">
