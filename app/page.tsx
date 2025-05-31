@@ -115,7 +115,7 @@ const articles = [
     url: "https://levelup.gitconnected.com/serialization-with-kotlin-and-jetpack-compose-3ab36055fd59",
     category: "Android Development",
     tags: ["Kotlin", "Jetpack Compose", "Serialization"],
-    date: " Feb 1, 2023", 
+    date: "Feb 1, 2023", 
   },
   {
     title: "Hide Your API Keys In Android",
