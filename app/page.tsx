@@ -192,7 +192,7 @@ const articles = [
     url: "https://hackernoon.com/how-aspiration-killed-my-motivation",
     category: "Personal",
     tags: ["Motivation", "Career", "Personal Growth"],
-    date: "November 21, 2021", 
+    date: "Nov 21, 2021", 
   },
   {
     title: "GitHub Actions",
