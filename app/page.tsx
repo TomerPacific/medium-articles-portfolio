@@ -6,6 +6,13 @@ import Image from 'next/image';
 
 const articles = [
   {
+    title: "Supporting 16KB Page Sizes In Your Android/Flutter Application",
+    url: "https://proandroiddev.com/supporting-16kb-page-sizes-in-your-android-flutter-application-361c6de7bb62",
+    category: "Android Development",
+    tags: ["Android", "Flutter", "Migration"],
+    date: "Sep 20, 2025", 
+  },
+  {
     title: "Migrating to Kotlin 2 In Jetpack Compose",
     url: "https://medium.com/proandroiddev/migrating-to-kotlin-2-0-in-your-jetpack-compose-project-315426b88d66",
     category: "Android Development",
