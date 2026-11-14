@@ -10,7 +10,7 @@ const articles = [
     url: "https://medium.com/flutter-community/migrating-a-flutter-project-to-built-in-kotlin-e0e41f2ea11a",
     category: "Flutter Development",
     tags: ["Flutter", "Kotlin", "Migration"],
-    date: "TODO", // not found, use the date shown on Medium
+    date: "Oct 28, 2026",
   },
   {
     title: "I Lost My Android Keystore. Here's What Happened",
