@@ -6,6 +6,41 @@ import Image from 'next/image';
 
 const articles = [
   {
+    title: "Migrating A Flutter Project to Built In Kotlin",
+    url: "https://medium.com/flutter-community/migrating-a-flutter-project-to-built-in-kotlin-e0e41f2ea11a",
+    category: "Flutter Development",
+    tags: ["Flutter", "Kotlin", "Migration"],
+    date: "TODO", // not found, use the date shown on Medium
+  },
+  {
+    title: "I Lost My Android Keystore. Here's What Happened",
+    url: "https://proandroiddev.com/what-happened-when-i-lost-my-keystore-file-8ddfc0b35843",
+    category: "Android Development",
+    tags: ["Android", "Keystore", "Google Play"],
+    date: "Aug 2, 2026",
+  },
+  {
+    title: "Contacts Permission in Android 17",
+    url: "https://proandroiddev.com/contacts-permission-in-android-17-838af8bdf139",
+    category: "Android Development",
+    tags: ["Android", "Permissions", "Android 17"],
+    date: "May 20, 2026",
+  },
+  {
+    title: "How I Shrunk My Android App Size by Converting PNGs to Vector Drawables",
+    url: "https://proandroiddev.com/how-i-shrunk-my-android-app-size-by-converting-pngs-to-vector-drawables-5005da8cb48e",
+    category: "Android Development",
+    tags: ["Android", "Vector Drawables", "App Size"],
+    date: "Mar 6, 2026", // estimated, verify
+  },
+  {
+    title: "Chaining Git Actions For Android",
+    url: "https://proandroiddev.com/chaining-git-actions-for-android-beb387e9db50",
+    category: "Android Development",
+    tags: ["Android", "GitHub Actions", "CI/CD"],
+    date: "Dec 13, 2025", // estimated, verify
+  },
+  {
     title: "Supporting 16KB Page Sizes In Your Android/Flutter Application",
     url: "https://proandroiddev.com/supporting-16kb-page-sizes-in-your-android-flutter-application-361c6de7bb62",
     category: "Android Development",
